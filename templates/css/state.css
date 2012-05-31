@@ -1,0 +1,21 @@
+/*
+
+
+	State
+	
+	State changes are represented in one of three ways:
+
+	1. pseudo-class: :something
+	2. class name: .is-something, .has-something
+	3. media query: @media something {}
+	
+
+
+*/
+@media screen and (min-width: 40em) { /* 40 = 480px ÷ 12pt */
+	
+}
+
+@media screen and (min-width: 54em) { /* 54 = approx. 960px ÷ 18pt */
+	
+}

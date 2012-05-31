@@ -1,0 +1,231 @@
+{{> head}}
+		
+		<style>
+			/* Styleguide specific */
+
+			@media screen {
+				body {
+					background: url(images/baseline-16-24.png) repeat;
+					background-size: 18px;
+					font-size: 75%;
+					margin: auto;
+					max-width: 30em;
+					padding: 1.5em;
+				}
+			}
+			@media only screen and (min-width: 30em) {
+				body.respond {
+					background-size: 24px;
+					font-size: 100%;
+				}
+			}
+			@media only screen and (min-width: 768px) {
+				body.respond {
+					background-size: 27px;
+					font-size: 112.5%;
+				}
+			}
+			@media only screen and (min-width: 1382px) {
+				body.respond {
+					background-size: 30px;
+					font-size: 125%;
+				}
+			}
+			
+		</style>
+		<header>
+			<h1>Base CSS Outline</h1>
+			<p>This document provides a styleguide for the base.css file</p>
+		</header>
+		<section>
+			<h2>1. Headings and paragraphs</h2>
+			<h1><code>&lt;h1&gt;</code> Testing the title space</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2><code>&lt;h2&gt;</code> Test testing the title space</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3><code>&lt;h3&gt;</code> Test testing the title space</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h4><code>&lt;h4&gt;</code> Test testing the title space</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		<section>
+			<h2>2. Lists</h2>
+			<dl>
+				<dt>Description Term</dt>
+				<dd>A good rule for rocket experimenters to follow is this: always assume that it will explode.</dd>
+				<dt>Description Term</dt>
+				<dd>A good rule for rocket experimenters to follow is this: always assume that it will explode.</dd>
+				<dt>Description Term</dt>
+				<dd>A good rule for rocket experimenters to follow is this: always assume that it will explode.</dd>
+			</dl>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				<li>Aliquam tincidunt mauris eu risus.</li>
+				<li>Vestibulum auctor dapibus neque.</li>
+			</ul>
+			<ol>
+				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				<li>Aliquam tincidunt mauris eu risus.</li>
+				<li>Vestibulum auctor dapibus neque.</li>
+			</ol>
+		</section>
+		<section>
+			<h2>3. Text Level Semantics</h2>
+			<p> 
+				The <a href="#">a element</a> example<br> 
+				The <abbr title="Full text of abbreviation or acronym">abbr element</abbr> example<br> 
+				The <b>b element</b> example<br> 
+				The <cite>cite element</cite> example<br> 
+				The <code>code element</code> example<br> 
+				The <del>del element</del> example<br> 
+				The <dfn>dfn element</dfn> example<br> 
+				The <em>em element</em> example<br> 
+				The <i>i element</i> example<br> 
+				The img element <img src="http://placehold.it/16x16" alt=""> example<br> 
+				The <ins>ins element</ins> example<br> 
+				The <kbd>kbd element</kbd> example<br> 
+				The <mark>mark element</mark> example<br> 
+				The <q>q element <q>inside</q> a q element</q> example<br> 
+				The <s>s element</s> example<br> 
+				The <samp>samp element</samp> example<br> 
+				The <small>small element</small> example<br> 
+				The <span>span element</span> example<br> 
+				The <strike>strike element</strike> example<br> 
+				The <strong>strong element</strong> example<br> 
+				The <sub>sub element</sub> example<br> 
+				The <sup>sup element</sup> example<br> 
+				The <var>var element</var> example<br> 
+				The <u>u element</u> example
+			</p>
+		</section>
+		<section>
+			<h2>4. Blockquote</h2>
+			<blockquote>
+				<p>The view of the Earth from the Moon fascinated me—a small disk, 240,000 miles away. It was hard to think that that little thing held so many problems, so many frustrations. Raging nationalistic interests, famines, wars, pestilence don't show from that distance.</p>
+			</blockquote>
+		</section>
+		<section>
+			<h2>5. Forms</h2>
+			<form action="#" method="get" accept-charset="utf-8">
+				<fieldset>
+					<legend>Text</legend>
+					<input type="text" placeholder="Text">
+					<input type="search" placeholder="Search">
+					<input type="tel" placeholder="(555) 555-5555">
+					<input type="url" placeholder="domain.com">
+					<input type="email" placeholder="you@domain.com">
+					<input type="password" placeholder="Password">
+				</fieldset>
+				<fieldset>
+					<legend>Textarea</legend>
+					<textarea></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Disabled</legend>
+					<input type="text" placeholder="Disabled" disabled>
+					<textarea disabled></textarea>
+					<select disabled>
+						<option>Option 1</option>
+						<option>Option 2</option>
+						<option>Option 3</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Date &amp; Time</legend>
+					<time datetime=""></time>
+					<input type="datetime" placeholder="2012-01-15T13:49:52-05:00" value="2012-01-15T13:49:52-05:00">
+					<input type="date" placeholder="January 15th, 2012" value="2012-01-15">
+					<input type="month" placeholder="January 2012" value="2012-01">
+					<input type="week" placeholder="3" value="2012-W3">
+					<input type="time" placeholder="1:49pm" value="13:49:52-05:00">
+					<input type="datetime-local">
+				</fieldset>
+				<fieldset>
+					<legend>Numbers and Ranges</legend>
+					<input type="number" placeholder="0">
+					<input type="range" min="0" max="100">
+				</fieldset>
+				<fieldset>
+					<legend>Other</legend>
+					<input type="color" placeholder="#000000">
+				</fieldset>
+				<fieldset>
+					<legend>Options</legend>
+					<input type="checkbox">
+					<input type="checkbox" checked>
+					<input type="radio">
+					<input type="radio" checked>
+					<select>
+						<option>Option 1</option>
+						<option>Option 2</option>
+						<option>Option 3</option>
+					</select>
+					<select multiple>
+						<option>Option 1</option>
+						<option>Option 2</option>
+						<option>Option 3</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>File</legend>
+					<input type="file">
+				</fieldset>
+				<fieldset>
+					<legend>Submit</legend>
+					<input type="submit">
+					<input type="reset">
+				</fieldset>
+			</form>
+		</section>
+		<section>
+			<h2>6. Tables</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>A</th>
+						<th>B</th>
+						<th>C</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>A Data 1.0</td>
+						<td>B Data 1.0</td>
+						<td>C Data 1.0</td>
+					</tr>
+					<tr>
+						<td>A Data 2.0</td>
+						<td>B Data 2.0</td>
+						<td>C Data 2.0</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+{{> foot}}

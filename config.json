@@ -1,5 +1,24 @@
 {
 	"template_dir": "templates",
 	"content_dir": "contents",
-	"output_dir": "public"
+	"output_dir": "public",
+	"server": {
+		"port": 9009,
+		"generate_interval": 10000,
+		"serving_only": false
+	},
+	"publish": {
+		"s3": {
+			"key": "key",
+			"secret": "secret",
+			"bucket": "mysite"
+	    },
+	    "sftp" : {
+			"host": "localhost",
+			"username": "user",
+			"port": "22",
+			"private_key": "~/.ssh/id_rsa",
+			"upload_path": "/home/user/public_html/mysite"
+		}
+	}
 }

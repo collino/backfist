@@ -15,16 +15,13 @@
 
 	/* Page */	
 	html {
-		background: rgb(255, 255, 255);
-		font-size: 62.5%; /* 10px */
+		background-color: #fafafa;
 		padding: 0;
 	}
 
 	body {
-		color: rgb(51, 51, 51);
+		color: #333;
 		font-family: 'Helmet', 'Freesans', sans-serif;
-		font-size: 14px;
-		font-size: 1.4rem;
 		line-height: 1.5;
 		margin: auto;
 		min-height: 100%;

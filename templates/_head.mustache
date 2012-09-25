@@ -6,11 +6,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="dns-prefetch" href="//ajax.googleapis.com">
-		<title>{{title}}</title>
-		<meta name="description" content="{{description}}">
+		<title>{{meta.title}}</title>
+		<meta name="description" content="{{meta.description}}">
 		<meta name="viewport" content="width=device-width">
 
-		<link rel="stylesheet" href="css/style.css">
+		{{#stylesheet_bundle}}/css/all.min.css{{/stylesheet_bundle}}
 
 		<script src="scripts/lib/modernizr.js"></script>
 		<!--[if IE]><meta http-equiv="imagetoolbar" content="no"><![endif]-->

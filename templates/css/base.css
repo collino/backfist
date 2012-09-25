@@ -62,6 +62,7 @@
 
 	h4, h5, h6 {
 		font-size: 1em;
+		line-height: 1.5;
 		margin-bottom: 1.5em;
 		margin-top: 0;
 	}
@@ -69,7 +70,6 @@
 	/* Paragraphs */
 	p {
 		margin-bottom: 1.5em;
-		margin-bottom: 1.5rem;
 		margin-top: 0;
 	}
 
@@ -90,7 +90,6 @@
 	ol,
 	ul {
 		margin-bottom: 1.5em;
-		margin-bottom: 1.5rem;
 		margin-top: 0;
 	}
 
@@ -266,10 +265,8 @@
 	blockquote {
 		font-style: italic;
 		margin-bottom: 1.5em;
-		margin-bottom: 1.5rem;
 		margin-top: 0;
 		padding: .75em;
-		padding: .75rem;
 	}
 
 	q,

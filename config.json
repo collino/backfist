@@ -7,18 +7,13 @@
 		"generate_interval": 10000,
 		"serving_only": false
 	},
-	"publish": {
-		"s3": {
-			"key": "key",
-			"secret": "secret",
-			"bucket": "mysite"
-	    },
-	    "sftp" : {
-			"host": "localhost",
-			"username": "user",
-			"port": "22",
-			"private_key": "~/.ssh/id_rsa",
-			"upload_path": "/home/user/public_html/mysite"
-		}
+	"bundles": {
+		"/css/all.min.css": [
+			"/css/base.css",	
+			"/css/layout.css",
+			"/css/module.css",
+			"/css/theme.css",
+			"/css/state.css"
+		]	
 	}
 }

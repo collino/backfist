@@ -1,4 +1,6 @@
 {
-	"title": "Site Title",
-	"description": "Site description"
+	"meta": {
+		"title": "Page Title",
+		"description": "Page description"
+	}
 }
